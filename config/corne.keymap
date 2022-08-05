@@ -33,17 +33,17 @@
                 default_layer {
                         bindings = <
    &kp TAB   &kp Q &kp W &kp E &kp R &kp T   &kp Y &kp U  &kp I     &kp O   &kp P    &kp BSPC
-   &kp LCTRL   &kp A &kp S &kp D &kp F &kp G   &kp H &kp J  &kp K     &kp L   &kp :       &kp '
-   &kp LSHFT &kp Z &kp X &kp C &kp V &kp B   &kp N &kp M  &kp COMMA &kp DOT   &kp /   &kp GUI 
+   &kp LCTRL   &kp A &kp S &kp D &kp F &kp G   &kp H &kp J  &kp K     &kp L   &kp ":"       &kp "'"
+   &kp LSHFT &kp Z &kp X &kp C &kp V &kp B   &kp N &kp M  &kp COMMA &kp DOT   &kp "/"   &kp GUI 
                   &kp RET &mo SYMBOLS_L &kp SPACE &mo ARROWS_L &mo NUMBERS_L &kp ALT
                         >;
                 };
 
                 symbols_layer {
                         bindings = <
-   &kp GRAVE    &kp EXCL       &kp AT       &kp HASH       &kp DLLR       &kp PRCNT         &kp CARET   &kp AMPS   &kp STAR &kp (  &kp ) &kp BSPC
-   &kp TAB &none &none &none &none &kp PLUS        &kp - &kp = &kp [ &kp ] &kp \ &kp `
-   &kp DEL   &none &none &none &none &kp MINUS        &kp _   &kp +   &kp { &kp } &kp "|" &kp GUI
+   &kp GRAVE    &kp EXCL       &kp AT       &kp HASH       &kp DLLR       &kp PRCNT         &kp CARET   &kp AMPS   &kp STAR &kp "("  &kp ")" &kp BSPC
+   &kp TAB &none &none &none &none &kp PLUS        &kp "-" &kp "=" &kp "[" &kp "]" &kp "\" &kp "`"
+   &kp DEL   &none &none &none &none &kp MINUS        &kp "_"   &kp +   &kp "{" &kp "}" &kp "|" &kp GUI
                      &kp LCMD &none &none     &none &kp SPACE  &ALT
                         >;
                 };
