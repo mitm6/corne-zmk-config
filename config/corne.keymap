@@ -40,7 +40,7 @@
 
                 arrows_layer {
                         bindings = < 
-   &none   &kp FN1   &kp FN2   &kp FN3       &kp FN4       &kp FN5       &kp SCRL     &kp LCTRL &kp LSHFT   &kp TAB     &kp GRAVE      &none
+   &none   &kp FN1   &kp FN2   &kp FN3       &kp FN4       &kp FN5       &kp SLCK     &kp LCTRL &kp LSHFT   &kp TAB     &kp GRAVE      &none
    &none   &kp FN6   &kp FN7   &kp FN8       &kp FN9       &kp FN10      &kp PG_UP    &kp LEFT  &kp UP      &kp RIGHT   &kp APOS       &none
    &none   &kp FN11  &kp FN12  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_CLR    &kp PG_DOWN  &kp HOME  &kp DOWN    &kp END     &kp ESC        &none
                     	     &kp LCMD &none   &kp LSHFT                     &kp LGUI &kp LCTRL &kp  LALT
