@@ -43,16 +43,16 @@
    &none   &kp FN1   &kp FN2   &kp FN3       &kp FN4       &kp FN5       &kp SCRL     &kp LCTRL &kp LSHFT   &kp TAB     &kp GRAVE      &none
    &none   &kp FN6   &kp FN7   &kp FN8       &kp FN9       &kp FN10      &kp PG_UP    &kp LEFT  &kp UP      &kp RIGHT   &kp APOS       &none
    &none   &kp FN11  &kp FN12  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_CLR    &kp PG_DOWN  &kp HOME  &kp DOWN    &kp END     &kp ESC        &none
-                    	     &kp LCMD &none   &kp LSHFT                     &kp GUI &kp LCTRL &kp  ALT
+                    	     &kp LCMD &none   &kp LSHFT                     &kp LGUI &kp LCTRL &kp  ALT
                         >;
                 };
 
                 numbers_layer {
                         bindings = <
-   &none  &kp ESC    &hm EXCL N1  &hm AT N2    &hm HASH N3   &kp PLUS         &kp GUI    &kp RCTRL  &kp ALT       &kp DEL       &kp BSPC    &none 
+   &none  &kp ESC    &hm EXCL N1  &hm AT N2    &hm HASH N3   &kp PLUS         &kp LGUI    &kp RCTRL  &kp ALT       &kp DEL       &kp BSPC    &none 
    &none  &kp LSHFT  &hm DLLR N4  &hm PRCNT N5 &hm CARET N6  &kp MINUS        &kp MINUS  &kp EQUAL  &kp LPAR      &kp RPAR      &kp BSLH    &none
    &none  &none      &hm AMPS N7  &hm STAR N8  &hm LPAR N9   &hm RPAR N10     &kp UNDER  &kp PLUS   &hm LBKT LBRC &hm RBKT RBRC &kp PIPE    &none
-                    	  &kp DOT &kp STAR &kp FSLH                             &kp GUI &none  &kp LSHFT
+                    	  &kp DOT &kp STAR &kp FSLH                             &kp LGUI &none  &kp LSHFT
                         >;
                 };
         };
