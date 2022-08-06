@@ -40,9 +40,9 @@
 
                 arrows_layer {
                         bindings = < 
-   &none   &kp F1   &kp F2   &kp F3       &kp F4       &kp F5       &none       &kp LCTRL &kp LSHFT   &kp TAB     &kp GRAVE      &none
+   &none   &kp F1   &kp F2   &kp F3       &kp F4       &kp F5       &SCLK       &kp LCTRL &kp LSHFT   &kp TAB     &kp GRAVE      &none
    &none   &kp F6   &kp F7   &kp F8       &kp F9       &kp F10      &kp PG_UP    &kp LEFT  &kp UP      &kp RIGHT   &kp APOS       &none
-   &none   &kp F11  &kp F12  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_CLR    &kp PG_DOWN  &kp HOME  &kp DOWN    &kp END     &kp ESC        &none
+   &none   &kp F11  &kp F12  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_CLR    &kp PG_DN  &kp HOME  &kp DOWN    &kp END     &kp ESC        &none
                     	     &kp LCMD &none   &kp LSHFT                     &kp LGUI &kp LCTRL &kp  LALT
                         >;
                 };
