@@ -51,7 +51,7 @@
                         bindings = <
    &none  &kp ESC    &hm EXCL N1  &hm AT N2    &hm HASH N3   &kp PLUS         &kp LGUI    &kp RCTRL  &kp LALT       &kp DEL       &kp BSPC    &none 
    &none  &kp LSHFT  &hm DLLR N4  &hm PRCNT N5 &hm CARET N6  &kp MINUS        &kp MINUS  &kp EQUAL  &kp LPAR      &kp RPAR      &kp BSLH    &none
-   &none  &none      &hm AMPERSAND N7  &hm STAR N8  &hm LPAR N9   &hm RPAR N10     &kp UNDER  &kp PLUS   &hm LBRC LBKT  &hm RBRC RBKT  &none    &none
+   &none  &none      &hm AMPERSAND N7  &hm STAR N8  &hm LPAR N9   &hm RPAR N0     &kp UNDER  &kp PLUS   &hm LBRC LBKT  &hm RBRC RBKT  &kp PIPE    &none
                     	  &kp DOT &kp STAR &kp FSLH                             &kp LGUI &none  &kp LSHFT
                         >;
                 };
