@@ -44,7 +44,7 @@
                         bindings = <
    &kp TILDE     &kp Q           &kp W     &kp E   &kp R   &kp T               &kp Y    &kp U     &kp I       &kp O      &kp P              &none
    &kp LSHFT     &kp A           &kp S     &kp D   &kp F   &kp G               &kp H    &kp J     &kp K       &kp L      &kp COLON   	    &kp LSHFT
-   &kp LCTRL     &kp Z  	&&kp X     &kp C   &kp V   &kp B               &kp N    &kp M     &kp COMMA   &kp DOT    &hm RCTRL FSLH     &kp GUI
+   &kp LCTRL     &kp Z  	&kp X     &kp C   &kp V   &kp B               &kp N    &kp M     &kp COMMA   &kp DOT    &hm RCTRL FSLH     &kp GUI
                       &kp RET &mo ARROWS_L &kp SPACE                                     &kp RET &mo NUMBERS_L &hm LALT TAB
                         >;
                 };
