@@ -50,6 +50,10 @@
                 , <&macro_release &kp GUI & LCTRL>
                 ;
         };
+    };
+    
+    
+        macros {
 	switch_desktop_left: switch_desktop_left {
             label = "SDL";
             compatible = "zmk,behavior-macro";
