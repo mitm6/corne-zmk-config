@@ -37,6 +37,31 @@
 
 
     };
+    
+    
+        macros {
+        switch_desktop_right: switch_desktop_right {
+            label = "SDR";
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings
+                = <&macro_press &kp GUI &kp LCTRL>
+                , <&macro_tap &kp RIGHT>
+                , <&macro_release &kp GUI & LCTRL>
+                ;
+        };
+	switch_desktop_left: switch_desktop_left {
+            label = "SDL";
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings
+                = <&macro_press &kp GUI &kp LCTRL>
+                , <&macro_tap &kp LEFT>
+                , <&macro_release &kp GUI & LCTRL>
+                ;
+        };
+    };
+    
         keymap {
                 compatible = "zmk,keymap";
 
@@ -51,8 +76,8 @@
 
                 arrows_layer {
                         bindings = < 
-   &kp TILDE   &kp F1   &kp F2   &kp F3       &kp F4       &kp F5       &kp SLCK       &kp LCTRL &kp LSHFT   &kp TAB     &kp GRAVE      &kp DEL
-   &none   &kp F6   &kp F7   &kp F8       &kp F9       &kp F10      &kp PG_UP    &kp LEFT  &kp UP      &kp RIGHT   &kp APOS       &kp LALT
+   &SDR   &kp F1   &kp F2   &kp F3       &kp F4       &kp F5       &kp SLCK       &kp LCTRL &kp LSHFT   &kp TAB     &kp  GUI      &kp TILDE
+   &SDL &kp F6   &kp F7   &kp F8       &kp F9       &kp F10      &kp PG_UP    &kp LEFT  &kp UP      &kp RIGHT   &kp APOS       &kp LSHFT
    &kp ESC  &kp F11  &kp F12  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_CLR    &kp PG_DN  &kp HOME  &kp DOWN    &kp END     &kp ESC        &kp LCTRL
                     	         &kp LCMD &none   &kp LSHFT                      &kp LGUI &kp LCTRL &kp  LALT
                         >;
