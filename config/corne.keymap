@@ -61,7 +61,7 @@
             bindings
                 = <&macro_press &kp GUI &kp LCTRL>
                 , <&macro_tap &kp LEFT>
-                , <&macro_release &kp GUI & LCTRL>
+                , <&macro_release &kp GUI &kp LCTRL>
                 ;
         };
     };
