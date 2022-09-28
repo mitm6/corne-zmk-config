@@ -41,7 +41,7 @@
     
         macros {
         switch_desktop_right: switch_desktop_right {
-            label = "SDR";
+            label = "switch_desktop_right";
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings
@@ -55,7 +55,7 @@
     
         macros {
 	switch_desktop_left: switch_desktop_left {
-            label = "SDL";
+            label = "switch_desktop_left";
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings
@@ -80,8 +80,8 @@
 
                 arrows_layer {
                         bindings = < 
-   &SDR   &kp F1   &kp F2   &kp F3       &kp F4       &kp F5       &kp SLCK       &kp LCTRL &kp LSHFT   &kp TAB     &kp  GUI      &kp TILDE
-   &SDL &kp F6   &kp F7   &kp F8       &kp F9       &kp F10      &kp PG_UP    &kp LEFT  &kp UP      &kp RIGHT   &kp APOS       &kp LSHFT
+   &switch_desktop_right   &kp F1   &kp F2   &kp F3       &kp F4       &kp F5       &kp SLCK       &kp LCTRL &kp LSHFT   &kp TAB     &kp  GUI      &kp TILDE
+   &switch_desktop_left &kp F6   &kp F7   &kp F8       &kp F9       &kp F10      &kp PG_UP    &kp LEFT  &kp UP      &kp RIGHT   &kp APOS       &kp LSHFT
    &kp ESC  &kp F11  &kp F12  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_CLR    &kp PG_DN  &kp HOME  &kp DOWN    &kp END     &kp ESC        &kp LCTRL
                     	         &kp LCMD &none   &kp LSHFT                      &kp LGUI &kp LCTRL &kp  LALT
                         >;
