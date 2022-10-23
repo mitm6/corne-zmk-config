@@ -45,9 +45,9 @@
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings
-                = <&macro_press &kp GUI &kp LCTRL>
+                = <&macro_press &kp LCTRL>
                 , <&macro_tap &kp RIGHT>
-                , <&macro_release &kp GUI &kp LCTRL>
+                , <&macro_release &kp LCTRL>
                 ;
         };
     };
@@ -59,9 +59,9 @@
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings
-                = <&macro_press &kp GUI &kp LCTRL>
+                = <&macro_press &kp LCTRL>
                 , <&macro_tap &kp LEFT>
-                , <&macro_release &kp GUI &kp LCTRL>
+                , <&macro_release &kp LCTRL>
                 ;
         };
     };
@@ -71,10 +71,10 @@
 
                 default_layer {
                         bindings = <
-   &kp GRAVE     &kp Q           &kp W     &kp E   &kp R   &kp T               &kp Y    &kp U     &kp I       &kp O      &kp P              &kp LALT
-   &kp LSHFT     &kp A           &kp S     &kp D   &kp F   &kp G               &kp H    &kp J     &kp K       &kp L      &kp COLON   	    &kp LSHFT
-   &kp LCTRL     &kp Z  	&kp X     &kp C   &kp V   &kp B               &kp N    &kp M     &kp COMMA   &kp DOT    &hm RCTRL FSLH     &kp GUI
-                      &kp RET &mo ARROWS_L &kp SPACE                                     &kp RET &mo NUMBERS_L &kp TAB
+   &hm INT1 GRAVE     &kp Q           &kp W     &kp E   &kp R   &kp T               &kp Y    &kp U     &kp I       &kp O      &kp P              &kp LALT
+   &kp LSHFT     &hm LSHFT A           &kp S     &kp D   &kp F   &kp G               &kp H    &kp J     &kp K       &kp L      &hm LSHFT SEMI    &kp LSHFT
+   &kp LCTRL     &hm LCTRL Z  	&kp X     &kp C   &kp V   &kp B               &kp N    &kp M     &kp COMMA   &kp DOT    &hm RCTRL FSLH     &kp GUI
+                      &kp RET &mo ARROWS_L &hm GUI SPACE                                     &hm GUI RET &mo NUMBERS_L &kp TAB
                         >;
                 };
 
