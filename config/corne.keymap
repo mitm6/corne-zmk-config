@@ -33,6 +33,41 @@
             key-positions = <0 1>;
             bindings = <&kp ESC>;
         };
+
+        combo_tab {
+            bindings = <&kp TAB>;
+            key-positions = <22 23>;
+        };
+
+        combo_bck {
+            bindings = <&kp BACKSPACE>;
+            key-positions = <10 9>;
+        };
+
+        combo_del {
+            bindings = <&kp DELETE>;
+            key-positions = <8 9>;
+        };
+
+        combo_up {
+            bindings = <&kp UP_ARROW>;
+            key-positions = <20 21>;
+        };
+
+        combo_right {
+            bindings = <&kp RIGHT>;
+            key-positions = <21 22>;
+        };
+
+        combo_left {
+            bindings = <&kp LEFT>;
+            key-positions = <19 20>;
+        };
+
+        combo_down {
+            bindings = <&kp DOWN>;
+            key-positions = <32 33>;
+        };
     };
 
     macros {
@@ -78,10 +113,10 @@
 
         default_layer {
             bindings = <
-&kp GRAVE  &hm GRAVE Q  &kp W        &kp E           &kp R             &kp T             &kp Y         &kp U              &kp I      &kp O    &hm TILDE P     &kp TILDE
-&kp LALT   &hm LSHFT A  &kp S        &kp D           &hm LEFT_SHIFT F  &kp G             &kp H         &hm RIGHT_SHIFT J  &kp K      &kp L    &hm SQT SEMI    &kp APOS
-&kp GLOBE  &hm GLOBE Z  &hm LCTRL X  &hm LEFT_ALT C  &hm LG(V) V       &kp B             &kp N         &kp M              &kp COMMA  &kp DOT  &hm RCTRL FSLH  &kp TAB
-                                     &hm GUI RET     &mo ARROWS_L      &hm LCMD SPACE    &hm LCMD RET  &mo NUMBERS_L      &kp TAB
+&kp GRAVE  &hm GRAVE Q  &kp W        &kp E           &kp R             &kp T             &kp Y             &kp U              &kp I                &kp O             &hm TILDE P     &kp TILDE
+&kp LALT   &hm LSHFT A  &kp S        &kp D           &hm LEFT_SHIFT F  &kp G             &kp H             &hm RIGHT_SHIFT J  &kp K                &kp L             &hm SQT SEMI    &kp APOS
+&kp GLOBE  &hm GLOBE Z  &hm LCTRL X  &hm LEFT_ALT C  &hm LEFT_GUI V    &kp B             &kp N             &hm RIGHT_GUI M    &hm RIGHT_ALT COMMA  &hm RCTRL PERIOD  &hm RCTRL FSLH  &kp SPACE
+                                     &mo 1           &mo 2             &hm LCMD SPACE    &hm SPACE RETURN  &mo NUMBERS_L      &mo 1
             >;
         };
 
@@ -89,8 +124,8 @@
             bindings = <
 &switch_desktop_right  &kp F1   &kp F2   &kp F3        &kp F4        &kp F5        &kp SLCK   &kp LCTRL  &kp LSHFT  &kp TAB    &kp GUI   &kp TILDE
 &switch_desktop_left   &kp F6   &kp F7   &kp F8        &kp F9        &kp F10       &kp PG_UP  &kp LEFT   &kp UP     &kp RIGHT  &kp APOS  &kp LSHFT
-&kp ESC                &kp F11  &kp F12  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_CLR    &kp PG_DN  &kp HOME   &kp DOWN   &kp END    &kp ESC   &kp LCTRL
-                                         &kp LCMD      &none         &kp LSHFT     &kp LCMD   &kp LCTRL  &kp LALT
+&kp ESC                &kp F11  &kp F12  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_CLR    &kp PG_DN  &kp HOME   &kp DOWN   &kp END    &none     &kp LCTRL
+                                         &none         &kp LEFT_ALT  &kp LSHFT     &kp LCMD   &kp LCTRL  &none
             >;
         };
 
@@ -98,8 +133,8 @@
             bindings = <
 &none  &none      &hm EXCL N1       &hm AT N2     &hm HASH N3   &kp PLUS       &kp LGUI   &kp RCTRL  &kp LALT       &kp DEL        &kp BSPC  &none
 &none  &kp LSHFT  &hm DLLR N4       &hm PRCNT N5  &hm CARET N6  &kp MINUS      &kp MINUS  &kp EQUAL  &kp LPAR       &kp RPAR       &kp BSLH  &none
-&none  &none      &hm AMPERSAND N7  &hm STAR N8   &hm LPAR N9   &hm RPAR N0    &kp UNDER  &kp PLUS   &hm LBRC LBKT  &hm RBRC RBKT  &kp PIPE  &none
-                                    &kp DOT       &kp STAR      &kp FSLH       &kp LCMD   &none      &kp LSHFT
+&none  &kp DOT    &hm AMPERSAND N7  &hm STAR N8   &hm LPAR N9   &hm RPAR N0    &kp UNDER  &kp PLUS   &hm LBRC LBKT  &hm RBRC RBKT  &kp PIPE  &none
+                                    &kp DOT       &none         &kp FSLH       &kp LCMD   &none      &kp LSHFT
             >;
         };
     };
