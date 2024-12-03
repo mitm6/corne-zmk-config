@@ -85,8 +85,8 @@
 
         arrows_layer {
             bindings = <
-&switch_desktop_right  &kp F1   &kp F2   &kp F3        &kp F4        &kp F5        &kp SLCK   &kp LCTRL  &kp LSHFT  &kp TAB    &kp GUI   &kp TILDE
-&switch_desktop_left   &kp F6   &kp F7   &kp F8        &kp F9        &kp F10       &kp PG_UP  &kp LEFT   &kp UP     &kp RIGHT  &kp APOS  &kp LSHFT
+&none  &kp F1   &kp F2   &kp F3        &kp F4        &kp F5        &kp SLCK   &kp LCTRL  &kp LSHFT  &kp TAB    &kp GUI   &kp TILDE
+&none   &kp F6   &kp F7   &kp F8        &kp F9        &kp F10       &kp PG_UP  &kp LEFT   &kp UP     &kp RIGHT  &kp APOS  &kp LSHFT
 &kp ESC                &kp F11  &kp F12  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_CLR    &kp PG_DN  &kp HOME   &kp DOWN   &kp END    &none     &kp LCTRL
                                          &none         &kp LEFT_ALT  &kp LSHFT     &kp LCMD   &kp LCTRL  &none
             >;
