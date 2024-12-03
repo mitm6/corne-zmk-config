@@ -70,43 +70,6 @@
         };
     };
 
-    macros {
-        switch_desktop_right: switch_desktop_right {
-            label = "switch_desktop_right";
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings =
-                <&macro_press>,
-                <&kp GUI>,
-                <&macro_press>,
-                <&kp LCTRL>,
-                <&macro_tap>,
-                <&kp RIGHT>,
-                <&macro_release>,
-                <&kp LCTRL>,
-                <&macro_release>,
-                <&kp GUI>;
-        };
-    };
-
-    macros {
-        switch_desktop_left: switch_desktop_left {
-            label = "switch_desktop_left";
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings =
-                <&macro_press>,
-                <&kp GUI>,
-                <&macro_press>,
-                <&kp LCTRL>,
-                <&macro_tap>,
-                <&kp LEFT>,
-                <&macro_release>,
-                <&kp LCTRL>,
-                <&macro_release>,
-                <&kp GUI>;
-        };
-    };
 
     keymap {
         compatible = "zmk,keymap";
