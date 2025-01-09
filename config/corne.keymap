@@ -18,7 +18,7 @@
             compatible = "zmk,behavior-hold-tap";
             label = "HOMEROW_MODS";
             #binding-cells = <2>;
-            tapping-term-ms = <180>;
+            tapping-term-ms = <150>;
             quick-tap-ms = <0>;
             flavor = "tap-preferred";
             bindings = <&kp>, <&kp>;
@@ -29,7 +29,7 @@
         compatible = "zmk,combos";
 
         combo_esc {
-            timeout-ms = <50>;
+            timeout-ms = <40>;
             key-positions = <0 1>;
             bindings = <&kp ESC>;
         };
@@ -79,7 +79,7 @@
 &kp GRAVE  &hm GRAVE Q  &kp W        &kp E           &kp R             &kp T             &kp Y             &kp U              &kp I                &kp O             &hm TILDE P     &kp TILDE
 &kp LALT   &hm LSHFT A  &kp S        &kp D           &hm LEFT_SHIFT F  &kp G             &kp H             &hm RIGHT_SHIFT J  &kp K                &kp L             &hm SQT SEMI    &kp APOS
 &kp GLOBE  &hm GLOBE Z  &hm LCTRL X  &hm LEFT_ALT C  &hm LEFT_GUI V    &kp B             &kp N             &hm RIGHT_GUI M    &hm RIGHT_ALT COMMA  &hm RCTRL PERIOD  &hm RCTRL FSLH  &kp SPACE
-                                     &mo 1           &mo 2             &hm LCMD SPACE    &hm SPACE RETURN  &mo NUMBERS_L      &mo 1
+                                     &kp SHIFT          &mo 2             &hm LCMD SPACE    &hm SPACE RETURN  &mo NUMBERS_L      &mo 1
             >;
         };
 
@@ -97,7 +97,7 @@
 &none  &none      &hm EXCL N1       &hm AT N2     &hm HASH N3   &kp PLUS       &kp LGUI   &kp RCTRL  &kp LALT       &kp DEL        &kp BSPC  &none
 &none  &kp LSHFT  &hm DLLR N4       &hm PRCNT N5  &hm CARET N6  &kp MINUS      &kp MINUS  &kp EQUAL  &kp LPAR       &kp RPAR       &kp BSLH  &none
 &none  &kp DOT    &hm AMPERSAND N7  &hm STAR N8   &hm LPAR N9   &hm RPAR N0    &kp UNDER  &kp PLUS   &hm LBRC LBKT  &hm RBRC RBKT  &kp PIPE  &none
-                                    &kp DOT       &none         &kp FSLH       &kp LCMD   &none      &kp LSHFT
+                                    &kp DOT       &none         &none       &kp LCMD   &none      &kp LSHFT
             >;
         };
     };
