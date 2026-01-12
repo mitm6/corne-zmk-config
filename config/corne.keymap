@@ -68,7 +68,7 @@
             bindings = <
 &kp GRAVE  &hm GRAVE Q  &kp W        &kp E           &kp R             &kp T             &kp Y             &kp U              &kp I                &kp O             &kp P     &kp TILDE
 &kp LALT   &kp A        &kp S        &kp D           &hm LEFT_SHIFT F  &kp G             &kp H             &hm RIGHT_SHIFT J  &kp K                &kp L             &hm SQT SEMI    &kp APOS
-&kp GLOBE  &kp Z        &hm LCTRL X  &hm LEFT_ALT C  &hm LEFT_GUI V    &kp B             &kp N             &hm RIGHT_GUI M    &hm RIGHT_ALT COMMA  &hm RCTRL PERIOD  &hm RCTRL FSLH  &kp LSHIFT
+&kp GLOBE  &kp Z        &hm LCTRL X  &hm LEFT_ALT C  &hm LEFT_SHIFT V    &kp B             &kp N             &hm RIGHT_SHIFT M    &hm RIGHT_ALT COMMA  &hm RCTRL PERIOD  &hm RCTRL FSLH  &kp LSHIFT
                                      &kp LSHIFT          &mo 2             &hm LCMD SPACE    &hm SPACE RETURN  &mo NUMBERS_L      &mo 1 
             >;
         };
